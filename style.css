@@ -13,12 +13,13 @@ body {
 .container {
   background-color: #ffffffdd;
   color: #333;
-  padding: 30px 40px;
+  padding: 40px 50px;
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
   text-align: center;
-  width: 350px;
-  max-width: 90vw;
+  width: 580px;
+  max-width: 110vw;
+
   transition: box-shadow 0.3s ease;
 }
 
