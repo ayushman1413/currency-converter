@@ -8,7 +8,7 @@ updateRate();
 
 function updateRate() {
   fetch(
-    `https://v6.exchangerate-api.com/v6/5f9d1c87f7250159c9c9b17d/latest/${currencyFirstEl.value}`
+    `https://v6.exchangerate-api.com/v6/0b9ff6e6b1d27532c0a4fb9b/latest/${currencyFirstEl.value}`
   )
     .then((res) => {
       if (!res.ok) {
