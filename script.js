@@ -12,6 +12,7 @@ function updateRate() {
     `https://v6.exchangerate-api.com/v6/0b9ff6e6b1d27532c0a4fb9b/latest/${currencyFirstEl.value}`
   )
     .then((res) => {
+         // Agar response sahi nahi aaya to error throw karo
       if (!res.ok) {
         throw new Error("Network response was not ok");
       }
