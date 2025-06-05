@@ -31,6 +31,7 @@ function updateRate() {
       exchangeRateEl.classList.remove("loading");
     })
     .catch((error) => {
+        // Agar API ya network mein koi error aaya to error message dikhao
       exchangeRateEl.innerText = "Error fetching exchange rate";
       exchangeRateEl.classList.add("error");
       worthSecondEl.value = "";
