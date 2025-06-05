@@ -7,6 +7,7 @@ const exchangeRateEl = document.getElementById("exchange-rate");
 updateRate();
 
 function updateRate() {
+    // API call kar rahe hain jisme first currency ko use kar rahe hain base ke roop mein
   fetch(
     `https://v6.exchangerate-api.com/v6/0b9ff6e6b1d27532c0a4fb9b/latest/${currencyFirstEl.value}`
   )
