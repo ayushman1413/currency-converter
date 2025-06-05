@@ -18,6 +18,7 @@ function updateRate() {
       return res.json();
     })
     .then((data) => {
+        // Agar conversion_rates nahi mila data mein to error
       if (!data.conversion_rates) {
         throw new Error("Invalid data from API");
       }
