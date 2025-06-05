@@ -45,5 +45,6 @@ function updateRate() {
 }
 // Jab user currency ya input value change kare to updateRate function call ho
 currencyFirstEl.addEventListener("change", updateRate);
+ // Jab first currency change ho
 currencySecondEl.addEventListener("change", updateRate);
 worthFirstEl.addEventListener("input", updateRate);
