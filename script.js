@@ -26,6 +26,7 @@ function updateRate() {
         throw new Error("Invalid currency code");
       }
       exchangeRateEl.innerText = `1 ${currencyFirstEl.value} = ${rate.toFixed(4)} ${currencySecondEl.value}`;
+         // Second currency ki value calculate karke input mein set ki
       worthSecondEl.value = (worthFirstEl.value * rate).toFixed(2);
       exchangeRateEl.classList.remove("error");
       exchangeRateEl.classList.remove("loading");
