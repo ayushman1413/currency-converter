@@ -22,6 +22,7 @@ function updateRate() {
         throw new Error("Invalid data from API");
       }
       const rate = data.conversion_rates[currencySecondEl.value];
+        // Agar rate nahi mila to currency code invalid hai
       if (!rate) {
         throw new Error("Invalid currency code");
       }
