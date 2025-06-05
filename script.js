@@ -5,7 +5,7 @@ const worthSecondEl = document.getElementById("worth-second");
 const exchangeRateEl = document.getElementById("exchange-rate");
 // Page load hote hi rate update karo
 updateRate();
-
+// Ye function latest exchange rate fetch karta hai
 function updateRate() {
     // API call kar rahe hain jisme first currency ko use kar rahe hain base ke roop mein
   fetch(
